@@ -1,0 +1,19 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo">
+
+    <block>
+  
+      <text class="userinfo-nickname"></text>
+
+
+      <button class="create-room" open-type="getUserInfo" bindtap="clickMe"> 创建房间 </button>
+
+
+      <button class="enter-room" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 进入房间 </button>
+    </block>
+  </view>
+  <view class="usermotto">
+   
+  </view>
+</view>

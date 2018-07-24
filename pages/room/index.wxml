@@ -1,0 +1,28 @@
+<!--index.wxml-->
+<view class="section">
+
+  <view class="flex-wrp" style="flex-direction:row;">
+    <view class="flex-item bc_green">参赛者</view>
+    <view class="flex-item bc_green">昵称</view>
+    <view class="flex-item bc_green">抢答速度</view>
+  </view>
+
+
+  <view class="flex-wrp" style="flex-direction:row;">
+    <view class="flex-item bc_person">
+      <image class='avatar' src="{{admin.avatarUrl}}"></image>
+    </view>
+
+    <view class="flex-item bc_person">{{admin.nickName}}</view>
+    <view class="flex-item bc_person">主持人</view>
+  </view>
+
+  <view class="flex-wrp" style="flex-direction:row;" wx:for="{{staffs}}" wx:for-item="staff">
+    <view class="flex-item bc_person">
+       <image class='avatar' src="{{staff.avatarUrl}}"></image>
+    </view>
+   <view class="flex-item bc_person">{{staff.nickName}}</view>
+   <view class="flex-item bc_person">{{staff.times}}</view>
+  </view>
+
+</view>

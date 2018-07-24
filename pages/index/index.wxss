@@ -1,0 +1,31 @@
+/**index.wxss**/
+.container{
+  background:url("https://image.hzy9738.com/image/b.png") no-repeat;
+  background-size:100% 100%;
+}
+
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+
+.create-room{
+  margin-bottom: 20rpx;
+ 
+}

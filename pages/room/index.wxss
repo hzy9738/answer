@@ -1,0 +1,27 @@
+.page-section{
+  margin-bottom: 20rpx;
+}
+.flex-wrp {display: flex;flex: 1}
+.bc_green {
+  background: green;
+  width:33.3%;
+  height: 40px;
+  text-align: center;
+  color: white;
+  line-height: 40px
+}
+.bc_person{
+  background: #eee;
+  width:33.3%;
+  height: 30px;
+  text-align: center;
+  color: #333;
+  line-height: 30px;
+  font-size: 14px
+}
+.avatar{
+  height: 26px;
+  width: 26px;
+  margin-top: 2px;
+  text-align: center
+}
